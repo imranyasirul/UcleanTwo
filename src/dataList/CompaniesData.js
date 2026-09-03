@@ -12,7 +12,7 @@ professional, trusted service and
 impeccable results.`,
   },
   {
-    id: 0,
+    id: 1,
     img: companiesPic2,
     title: "Professional Team",
     description: `Our trained, insured cleaners ensure
@@ -20,7 +20,7 @@ professional, trusted service and
 impeccable results.`,
   },
   {
-    id: 0,
+    id: 2,
     img: companiesPic3,
     title: "Professional Team",
     description: `Our trained, insured cleaners ensure
@@ -28,7 +28,7 @@ professional, trusted service and
 impeccable results.`,
   },
   {
-    id: 0,
+    id: 3,
     img: companiesPic4,
     title: "Professional Team",
     description: `Our trained, insured cleaners ensure
