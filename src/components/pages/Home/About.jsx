@@ -57,7 +57,7 @@ const About = () => {
         </Container>
         <div className="aboutStarphoto relative">
           <Image
-            className=" absolute bottom-0 inline-block left-120"
+            className=" relative bottom-0 left-120"
             source={aboutStar}
           />
         </div>
