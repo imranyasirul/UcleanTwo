@@ -8,7 +8,7 @@
     {
       id: 1,
       label: "Services",
-      href: "/services",
+      href: "/Services",
     },
     {
       id: 2,

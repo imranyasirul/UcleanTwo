@@ -5,7 +5,7 @@ import Anchor from "../ui/Anchor";
 import listdata from "../../dataList/ListData";
 import Button from "../ui/Button";
 import { IoCall } from "react-icons/io5";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="py-7.5">
@@ -18,15 +18,13 @@ const Navbar = () => {
             <ul className="flex gap-5.5">
               {listdata.map((item) => (
                 <li key={item.id}>
-                  <div className="navListI flex items-center gap-2">
-                    <Anchor
-                      className="text-[#161C2D] font-semibold leading-7 text-3.5 font-open-sans"
-                      href={item.href}
-                    >
-                      {item.label}
-                    </Anchor>
-                    <MdKeyboardArrowDown />
-                  </div>
+                  <NavLink
+                    to={item.href}
+                    className="text-[#161C2D] font-semibold leading-7 text-3.5 font-open-sans"
+                  >
+                    {item.label}
+                  </NavLink>
+                  <div className="navListI flex items-center gap-2"></div>
                 </li>
               ))}
             </ul>
